@@ -26,9 +26,6 @@ def structured_data(soup, language):
         business = business['@graph'][0]
     business['@id'] = url + '#organization'
     page_url = url if language == 'es' else url + 'en/'
-    faq = [{ '@type': 'Question', 'name': detail.summary.find('span').get_text(),
-             'acceptedAnswer': {'@type':'Answer','text':detail.p.get_text()} }
-           for detail in soup.select('.faq-list details')]
     script.string = json.dumps({'@context':'https://schema.org','@graph':[
         business,
         {'@type':'Person','@id':url+'#jesus','name':'Jesús F. Bouquet Meinhardt',
@@ -39,7 +36,6 @@ def structured_data(soup, language):
          'name':soup.title.get_text(),'description':soup.find('meta',attrs={'name':'description'})['content'],
          'inLanguage':language,'isPartOf':{'@id':url+'#website'},
          'about':{'@id':url+'#organization'}},
-        {'@type':'FAQPage','@id':page_url+'#preguntas','inLanguage':language,'mainEntity':faq}
     ]}, ensure_ascii=False, separators=(',', ':'))
 
 structured_data(source, 'es')

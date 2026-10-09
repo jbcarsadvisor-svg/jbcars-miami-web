@@ -41,12 +41,7 @@ for page in [site/'index.html', site/'en'/'index.html', site/'404.html']:
     require(len(soup.find_all('link',rel='alternate',hreflang=True))==3,'hreflang incomplete')
     require(bool(soup.find('meta',attrs={'name':'description'})['content']),'description missing')
     structured = json.loads(soup.find('script',type='application/ld+json').string)
-    require(len(structured['@graph'])==5,'structured graph incomplete')
-    faq = next(node for node in structured['@graph'] if node['@type']=='FAQPage')
-    require(len(faq['mainEntity'])==len(soup.select('.faq-list details')),'FAQ data differs from visible content')
-    for question, detail in zip(faq['mainEntity'],soup.select('.faq-list details')):
-        require(question['name']==detail.summary.find('span').get_text(),'FAQ question mismatch')
-        require(question['acceptedAnswer']['text']==detail.p.get_text(),'FAQ answer mismatch')
+    require({node['@type'] for node in structured['@graph']}=={'Organization','Person','WebSite','WebPage'},'structured graph incorrect')
     require(not soup.find('meta',attrs={'name':'robots','content':re.compile('noindex')}),'production page is noindex')
     for label in soup.find_all('label'):
         require(bool(label.find(['input','select','textarea'])),'label has no form control')

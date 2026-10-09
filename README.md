@@ -14,7 +14,7 @@ Web bilingüe de asesoría independiente de coches en Miami. Sitio estático lig
 - `docs/index.html`: contenido principal en español.
 - `docs/en/index.html`: contenido en inglés generado y rastreable.
 - `docs/styles.css`: diseño, móvil y reducción de movimiento.
-- `docs/app.js`: menú, preguntas frecuentes y preparación de consultas.
+- `docs/app.js`: menú y preparación de consultas.
 - `docs/assets/`: fotografías WebP y tipografía Manrope alojadas localmente.
 - `scripts/build.py`: generación de inglés, sitemap y datos estructurados. Requiere Python y BeautifulSoup.
 - `scripts/prepare-assets.py`: optimización de imágenes originales. Requiere Pillow.
@@ -43,8 +43,8 @@ Los archivos en `docs/` están listos para servir directamente. Cambiar el nombr
 
 ## SEO
 
-HTML semántico rastreable, títulos y descripciones por idioma, canonical, hreflang recíproco ES/EN/x-default, Open Graph, favicon, sitemap XML bilingüe y robots.txt. Datos estructurados Organization, Person, WebSite, WebPage y FAQPage basados en contenido visible; no se inventan dirección, reseñas agregadas ni valoraciones.
-Las preguntas frecuentes no garantizan resultados enriquecidos. Publicación no equivale a indexación: registrar la propiedad en Google Search Console, verificarla con acceso del propietario y enviar el sitemap es un paso posterior.
+HTML semántico rastreable, títulos y descripciones por idioma, canonical, hreflang recíproco ES/EN/x-default, Open Graph, favicon, sitemap XML bilingüe y robots.txt. Datos estructurados Organization, Person, WebSite, WebPage basados en contenido visible; no se inventan dirección, reseñas agregadas ni valoraciones.
+Publicación no equivale a indexación: registrar la propiedad en Google Search Console, verificarla con acceso del propietario y enviar el sitemap es un paso posterior.
 
 ## Contenido y límites
 

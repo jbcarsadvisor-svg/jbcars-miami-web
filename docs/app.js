@@ -78,7 +78,4 @@
     document.getElementById('name').focus({preventScroll:true});
   });
   document.getElementById('year').textContent = String(new Date().getFullYear());
-  document.querySelectorAll('.faq-list details').forEach(detail => detail.addEventListener('toggle', () => {
-    if (detail.open) document.querySelectorAll('.faq-list details').forEach(other => { if (other !== detail) other.open = false; });
-  }));
 })();
