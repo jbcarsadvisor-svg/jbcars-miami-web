@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jbcarsadvisor-svg.github.io/jbcars-miami-web/sitemap.xml
