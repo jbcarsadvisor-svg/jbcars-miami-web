@@ -44,7 +44,9 @@ for page in [site/'index.html', site/'en'/'index.html', site/'404.html', *sorted
     require(bool(soup.find('meta',attrs={'name':'description'})['content']),'description missing')
     structured = json.loads(soup.find('script',type='application/ld+json').string)
     page_type = ('Blog' if page.name=='index.html' else 'BlogPosting') if is_blog else 'WebPage'
-    require({node['@type'] for node in structured['@graph']}=={'Organization','Person','WebSite',page_type},'structured graph incorrect')
+    expected_types = {'Organization','Person','WebSite',page_type}
+    if page_type == 'BlogPosting': expected_types.add('BreadcrumbList')
+    require({node['@type'] for node in structured['@graph']}==expected_types,'structured graph incorrect')
     require(not soup.find('meta',attrs={'name':'robots','content':re.compile('noindex')}),'production page is noindex')
     for label in soup.find_all('label'):
         require(bool(label.find(['input','select','textarea'])),'label has no form control')
@@ -56,9 +58,9 @@ for font_url in re.findall(r"url\(['\"]?([^)'\"]+)", (site/'styles.css').read_te
 tree = ET.parse(site/'sitemap.xml')
 ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'}
 posts = json.loads((site.parent/'scripts/blog.json').read_text(encoding='utf-8'))
-assert len(posts) == 10
+assert posts and len({p['slug'] for p in posts}) == len(posts)
 assert {el.text for el in tree.findall('.//s:loc',ns)} == {base,base+'en/',base+'blog/', *[base+'blog/'+p['slug']+'.html' for p in posts]}
 assert 'Sitemap: '+base+'sitemap.xml' in (site/'robots.txt').read_text()
 if errors:
     raise SystemExit('\n'.join(errors))
-print('PASS: ES/EN and 10 blog articles, links, images, SEO, schema, forms, fonts, sitemap and robots')
+print(f'PASS: ES/EN and {len(posts)} blog articles, links, images, SEO, schema, forms, fonts, sitemap and robots')

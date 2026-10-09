@@ -19,6 +19,7 @@ Web bilingüe de asesoría independiente de coches en Miami. Sitio estático lig
 - `docs/blog.css` y `docs/blog.js`: diseño y menú propios del blog.
 - `docs/assets/blog/`: 10 portadas editoriales generadas y optimizadas en WebP.
 - `scripts/blog.json` y `scripts/build-blog.py`: contenido y generación del blog; se ejecuta desde `build.py`.
+- Para sumar artículos, agregar una entrada a `scripts/blog.json` con slug único, contenido, texto alternativo y fechas `published`/`modified`; añadir su portada WebP. El índice, los enlaces y el sitemap se generan con el total disponible.
 - `docs/assets/`: fotografías WebP y tipografía Manrope alojadas localmente.
 - `scripts/build.py`: generación de inglés, sitemap y datos estructurados. Requiere Python y BeautifulSoup.
 - `scripts/prepare-assets.py`: optimización de imágenes originales. Requiere Pillow.
@@ -49,6 +50,7 @@ Los archivos en `docs/` están listos para servir directamente. Cambiar el nombr
 
 HTML semántico rastreable, títulos y descripciones por idioma, canonical, hreflang recíproco ES/EN/x-default, Open Graph, favicon, sitemap XML bilingüe y robots.txt. Datos estructurados Organization, Person, WebSite, WebPage basados en contenido visible; no se inventan dirección, reseñas agregadas ni valoraciones.
 Publicación no equivale a indexación: registrar la propiedad en Google Search Console, verificarla con acceso del propietario y enviar el sitemap es un paso posterior.
+El blog incluye URLs propias, títulos y descripciones individuales, Open Graph, texto alternativo de portadas, enlaces relacionados, datos estructurados Blog/BlogPosting/BreadcrumbList y fechas de actualización en el sitemap.
 
 ## Contenido y límites
 
