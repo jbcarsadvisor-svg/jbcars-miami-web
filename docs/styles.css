@@ -10,3 +10,5 @@
 @media(max-width:760px){.hero-accent{font-size:.70em}.car-drawing{min-height:0}.car-drawing img{height:105px}.vehicle-model{font-size:7px}.hero-footnote{font-size:9px}.hero-description,.section-heading>p,.about-copy>p,.process-grid p,.contact-copy>p{font-size:13px}.trust-strip .container>div{font-size:8px}.contact-avatar{width:80px;height:100px}.footer-social .social-icon{width:17px;height:17px}.about-social a{min-height:38px}.form-privacy,.form-explainer{font-size:10px}.footer-disclaimer{font-size:9px}}
 .whatsapp-direct{display:flex;width:fit-content}.contact-email{overflow-wrap:anywhere}.hero-description{max-width:390px}.hero-accent:after{left:0;right:0}body{overflow-x:clip}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+.process-section .section-note{color:#c6d0c2;font-size:10px;margin-top:24px}
