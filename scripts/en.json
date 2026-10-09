@@ -33,14 +33,14 @@
   "pickupTag": "READY FOR MORE",
   "pickup": "Pickup & work",
   "pickupDesc": "For your work. For the road ahead.",
-  "categoriesNote": "These categories help guide your search. They are not a catalog of available vehicles.",
+  "categoriesNote": "Tell us which car you want. Let’s look for it together.",
   "processEyebrow": "LESS GUESSWORK. MORE CLARITY.",
   "processTitle": "A good beginning\nchanges everything.",
   "start": "Start my search",
   "step1Title": "First, we listen.",
   "step1Desc": "How you'll use your car, what matters to you and the budget you have in mind. Your search starts with you.",
-  "step2Title": "Let's discuss options.",
-  "step2Desc": "Talk with Jesús about alternatives and the questions worth asking before making your decision.",
+  "step2Title": "Less down. More possibilities.",
+  "step2Desc": "We work with banks and financing providers to seek the lowest possible down payment and monthly payments that fit your budget.",
   "step3Title": "Decide with more clarity.",
   "step3Desc": "Understand the next steps and arrange a call or a visit when you're ready. You set the pace.",
   "aboutQuote": "Behind every car,\nthere's a person.",
@@ -113,5 +113,6 @@
   "call": "Call",
   "pending": "Coming soon",
   "follow": "Connect with Jesús",
-  "exploreOptions": "Explore your options"
+  "exploreOptions": "Explore your options",
+  "financingNote": "Financing is subject to credit approval. Down payment and monthly payments depend on the vehicle, your profile and the lender’s terms."
 }
