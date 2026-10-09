@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "presupuesto",
+    "category": "Tu presupuesto",
+    "title": "Tu carro debe caber en tu vida… y en tu bolsillo",
+    "intro": "Antes de enamorarte de un carro, haz espacio para él en tus cuentas.",
+    "paragraphs": ["Piensa en lo que puedes gastar al mes con tranquilidad. Además de la cuota, vas a pagar seguro, gasolina, mantenimiento y, según dónde vivas, estacionamiento o peajes. Un carro que te deja sin margen puede terminar pesando más de lo que disfrutas.", "Haz una lista con tus gastos normales y prueba agregar estos costos. Si las cuentas quedan muy apretadas, cambia el presupuesto antes de cambiar de carro. La idea es que te facilite la vida."],
+    "tip": "Aparta un pequeño fondo para los imprevistos del carro.",
+    "alt": "Calculadora, libreta verde y un carro en miniatura sobre un escritorio claro"
+  },
+  {
+    "slug": "precio-final",
+    "category": "Antes de comprar",
+    "title": "Pregunta cuánto cuesta llevártelo, no solo cuánto dice el anuncio",
+    "intro": "El precio grande del anuncio es apenas el comienzo de la conversación.",
+    "paragraphs": ["Pide el precio final por escrito, con impuestos, registro, cargos y cualquier extra separados. En Estados Unidos puedes pedir el precio “out-the-door”: cuánto cuesta salir con el carro, antes de sumar el costo del financiamiento.", "Con ese desglose es más fácil comparar dos opciones. Si un cargo no te queda claro, pregunta qué cubre. Guarda la cotización para revisar que los números coincidan cuando llegue el contrato."],
+    "tip": "Usa el mismo desglose para comparar todas tus cotizaciones.",
+    "alt": "Carro en miniatura junto a una cotización y un lápiz verde lima"
+  },
+  {
+    "slug": "financiamiento",
+    "category": "Financiamiento sin vueltas",
+    "title": "Una cuota bajita no cuenta toda la historia",
+    "intro": "Una mensualidad cómoda ayuda. Saber cuánto pagarás en total ayuda todavía más.",
+    "paragraphs": ["Cuando compares financiamiento, mira la APR —la tasa anual que incluye intereses y ciertos cargos—, el plazo y el total a pagar. Una cuota menor puede venir de pagar durante más años y terminar costándote más.", "Pide que te expliquen esas cifras con calma. Compara ofertas para el mismo carro y con un pago inicial parecido. Así puedes elegir con números claros, sin quedarte solo con la cuota que suena más bonita."],
+    "tip": "Pregunta: “¿Cuánto habré pagado cuando termine el préstamo?”.",
+    "alt": "Dos carpetas de documentos, una calculadora y una llave de carro"
+  },
+  {
+    "slug": "down-payment",
+    "category": "Tu presupuesto",
+    "title": "El down payment: busca un equilibrio que te deje respirar",
+    "intro": "Dar más de inicial puede ayudar, pero tampoco tienes que quedarte sin ahorros.",
+    "paragraphs": ["El down payment es el pago inicial: la parte que entregas al comprar. Al aumentar ese monto, normalmente reduces lo que necesitas financiar. Pero también necesitas dinero para el seguro, tus gastos diarios y cualquier imprevisto.", "Pide opciones con distintos montos y revisa cómo cambian la cuota y el costo total. No hay una cifra ideal para todo el mundo. Elige un equilibrio que tenga sentido para tus cuentas; las condiciones dependen de la oferta y la aprobación crediticia."],
+    "tip": "Antes de decidir el inicial, calcula cuánto ahorro te quedaría.",
+    "alt": "Alcancía verde, monedas y un sedán en miniatura sobre una mesa clara"
+  },
+  {
+    "slug": "carro-usado",
+    "category": "Carros usados",
+    "title": "Un usado bonito también necesita una buena revisión",
+    "intro": "Que brille por fuera está bien. Saber cómo está por dentro es lo que importa.",
+    "paragraphs": ["Pide el historial del vehículo y revisa si hay accidentes o daños reportados. Después, coordina una inspección con un mecánico independiente. El reporte puede darte pistas, pero no reemplaza una revisión del estado actual del carro.", "También pregunta por sus mantenimientos y por cualquier reparación pendiente. Si no te permiten revisarlo antes de comprar, conviene buscar otra opción. Es mejor hacer preguntas hoy que llevarte una sorpresa mañana."],
+    "tip": "Lleva el número VIN para verificar que los documentos correspondan al carro.",
+    "alt": "Sedán verde en un taller limpio preparado para una inspección"
+  },
+  {
+    "slug": "prueba-manejo",
+    "category": "Elige con calma",
+    "title": "La prueba de manejo no es solo dar una vuelta",
+    "intro": "Este es el momento de ver si tú y ese carro se llevan bien.",
+    "paragraphs": ["Ajusta el asiento y los espejos antes de salir. Revisa si ves bien, si estás cómodo y si los controles te resultan fáciles de usar. En una ruta segura, presta atención a cómo frena, gira y responde el carro. Escucha si aparecen ruidos extraños.", "Prueba también el aire acondicionado y piensa en tu rutina: estacionarte, llevar pasajeros o cargar compras. Si algo te incomoda en diez minutos, probablemente también te incomode todos los días."],
+    "tip": "Haz la prueba sin prisa y anota tus dudas cuando estés estacionado.",
+    "alt": "Volante e interior de un carro con una calle de Miami al fondo"
+  },
+  {
+    "slug": "millas",
+    "category": "Carros usados",
+    "title": "Pocas millas ayudan, pero no lo dicen todo",
+    "intro": "El número del tablero es una pista; la historia completa merece más atención.",
+    "paragraphs": ["Dos carros con las mismas millas pueden estar en condiciones muy diferentes. Pregunta cómo se usó el vehículo y si hay registros de mantenimiento. Mira el desgaste de los asientos, las llantas y los controles, y comenta cualquier diferencia que te llame la atención.", "No decidas solo por el kilometraje o por el año. Junta esas pistas con una inspección profesional y el historial. Un carro bien cuidado puede ser más interesante que uno con menos millas y muchas dudas."],
+    "tip": "Pregunta cuándo se hizo el último mantenimiento y qué incluyó.",
+    "alt": "Detalle del tablero y volante de un carro con tapicería clara"
+  },
+  {
+    "slug": "seguro",
+    "category": "Tu presupuesto",
+    "title": "Cotiza el seguro antes de decir “me lo llevo”",
+    "intro": "Dos carros de precio parecido pueden tener seguros muy distintos.",
+    "paragraphs": ["Antes de cerrar la compra, pide una cotización de seguro para el vehículo exacto. Ten a mano el VIN si ya lo conoces. El costo puede cambiar según el carro, tu perfil, el lugar donde vives y la cobertura que elijas.", "Revisa el deducible —lo que pagas de tu bolsillo en ciertos reclamos— y pregunta qué cobertura pide el prestamista si vas a financiar. Suma esa cotización a tu presupuesto: así sabrás si la combinación de carro y seguro te funciona."],
+    "tip": "Compara cotizaciones con coberturas y deducibles equivalentes.",
+    "alt": "Arco protector verde lima sobre un carro en miniatura verde oscuro"
+  },
+  {
+    "slug": "extras",
+    "category": "Antes de firmar",
+    "title": "Los extras: quédate con los que sí necesitas",
+    "intro": "No todo lo que te ofrecen tiene que ir en tu compra.",
+    "paragraphs": ["Puede que te propongan accesorios, protección de pintura o contratos de servicio. Pide el precio de cada uno por separado y pregunta cuáles son opcionales. Revisa qué incluyen y si ya tienes algo parecido en otra cobertura.", "Si un extra se agrega al préstamo, también puede generar intereses. Antes de aceptarlo, piensa si lo usarías y si vale lo que cuesta. Puedes pedir una cotización sin extras para ver la diferencia con claridad."],
+    "tip": "Pregunta cuánto cuesta cada extra en total, no solo cuánto sube la cuota.",
+    "alt": "Carro claro en miniatura junto a tres cajas de accesorios verdes"
+  },
+  {
+    "slug": "antes-firmar",
+    "category": "Antes de firmar",
+    "title": "Antes de firmar, baja el ritmo y revisa todo",
+    "intro": "Ya casi tienes las llaves. Regálate unos minutos para leer con calma.",
+    "paragraphs": ["Confirma que el carro, el precio y las condiciones sean los que acordaste. Si hay financiamiento, revisa el inicial, la APR, el plazo y los pagos. Si te prometieron una reparación o un beneficio, pide que quede por escrito.", "No firmes espacios en blanco ni algo que no entiendas. Pregunta las veces que haga falta y guarda una copia de los documentos. Una buena compra también se siente tranquila cuando llega el momento de firmar."],
+    "tip": "Lleva tus cotizaciones para compararlas con el contrato final.",
+    "alt": "Pluma, contrato y llave de carro sobre un escritorio color crema"
+  }
+]

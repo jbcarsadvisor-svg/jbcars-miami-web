@@ -15,6 +15,10 @@ Web bilingüe de asesoría independiente de coches en Miami. Sitio estático lig
 - `docs/en/index.html`: contenido en inglés generado y rastreable.
 - `docs/styles.css`: diseño, móvil y reducción de movimiento.
 - `docs/app.js`: menú y preparación de consultas.
+- `docs/blog/`: índice del blog y 10 artículos breves en español latino.
+- `docs/blog.css` y `docs/blog.js`: diseño y menú propios del blog.
+- `docs/assets/blog/`: 10 portadas editoriales generadas y optimizadas en WebP.
+- `scripts/blog.json` y `scripts/build-blog.py`: contenido y generación del blog; se ejecuta desde `build.py`.
 - `docs/assets/`: fotografías WebP y tipografía Manrope alojadas localmente.
 - `scripts/build.py`: generación de inglés, sitemap y datos estructurados. Requiere Python y BeautifulSoup.
 - `scripts/prepare-assets.py`: optimización de imágenes originales. Requiere Pillow.

@@ -67,6 +67,9 @@ for element in english.select('[src], [href]'):
             element[attr] = '../' + value
 for element in english.select('[srcset]'):
     element['srcset'] = ', '.join('../'+part.strip() for part in element['srcset'].split(','))
+for link in english.select('[data-i18n="navBlog"]'):
+    link['href'] = '../blog/'
+    link['hreflang'] = 'es'
 switch = english.find(id='language-switch')
 switch['href'] = '../'
 switch['hreflang'] = 'es'
@@ -102,3 +105,5 @@ for path in ['', 'en/']:
     entries.append(f'<url><loc>{url}{path}</loc><xhtml:link rel="alternate" hreflang="es" href="{url}"/><xhtml:link rel="alternate" hreflang="en" href="{url}en/"/><xhtml:link rel="alternate" hreflang="x-default" href="{url}"/></url>')
 (site/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+''.join(entries)+'</urlset>\n',encoding='utf-8')
 print('Built ES + EN pages, structured data, robots.txt and sitemap.xml')
+import runpy
+runpy.run_path(str(root / 'scripts' / 'build-blog.py'), run_name='__main__')
